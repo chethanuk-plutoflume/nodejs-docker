@@ -9,6 +9,7 @@ COPY package*.json ./
 # Bundle app source
 COPY . .
 
+# npm install &&
 RUN npm ci --only=production
 
 EXPOSE 8080

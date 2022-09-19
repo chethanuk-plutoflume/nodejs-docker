@@ -4,12 +4,6 @@
 
 ![Tech Logos](./logos.png)
 
-## License & Purpose
-
-MIT License. This is something I've used in production before with success that I found useful for quickly bootstrapping RESTful APIs. You can fork and clone and take this apart without giving me any credit for anything. If you like it, you can star the repo ⭐️ or follow me on GitHub.
-
-Feel free to make an issue or PR if you want to suggest ideas / fixes.
-
 ## About
 
 This configuration is a backend [RESTful API](https://en.wikipedia.org/wiki/Representational_state_transfer) boilerplate with the following pieces:
