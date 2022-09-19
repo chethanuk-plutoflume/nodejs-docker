@@ -1,0 +1,23 @@
+{
+	"$schema": "https://json.schemastore.org/swcrc",
+	"minify": true,
+	"exclude": "node_modules/",
+	"sourceMaps": "inline",
+	"jsc": {
+		"parser": {
+			"syntax": "typescript",
+			"tsx": false,
+			"decorators": true,
+			"dynamicImport": true,
+			"topLevelAwait": true
+		},
+		"target": "es2022",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+	"module": {
+		"type": "commonjs"
+	}
+}

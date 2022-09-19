@@ -1,0 +1,8 @@
+services:
+  empty-node:
+    extends:
+      file: docker-compose.yml
+      service: empty-node
+    build:
+      target: production
+    restart: unless-stopped
